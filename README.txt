@@ -1,6 +1,7 @@
 Web Service Basic Programs
    1. SOAP Demo
    2. REST Demo
+   3. XML Basics
 Tools used for Development
    1. Glassfish Server 4
    2. Netbenas 7.4

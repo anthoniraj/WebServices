@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<university   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="university.xsd">
+    <student>
+        <name>Kumar</name>
+        <semester>Fall</semester>
+        <course>M.Tech</course>
+        <age>22</age>  
+        <doj>2013-03-23</doj>        
+    </student>
+    <student>
+        <name>Kumar</name>
+        <semester>Fall</semester>
+        <course>B.Tech</course>
+        <age>23</age>  
+        <doj>2011-01-21</doj> 		
+    </student>
+    <student>
+        <name>Balaji</name>
+        <semester>Summer</semester>
+        <course>B.Tech</course>
+        <age>21</age>  
+        <doj>2012-02-11</doj> 		
+    </student>
+</university>

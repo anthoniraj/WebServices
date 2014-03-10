@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE university [
+<!ELEMENT university (student)+>
+<!ELEMENT student (name, semester, course, age, doj)+>
+<!ELEMENT name (#PCDATA)>	
+<!ELEMENT semester (#PCDATA)>	
+<!ELEMENT course (#PCDATA)>	
+<!ELEMENT age (#PCDATA)>	
+<!ELEMENT doj (#PCDATA)>	
+]>
+<university>
+	<student>
+		<name>Raja</name>
+		<semester>Winter</semester>
+		<course>M.Tech</course>
+		<age>22</age>
+		<doj>2013-02-14</doj>
+	</student>
+	<student>
+		<name>Kumar</name>
+		<semester>Fall</semester>
+		<course>B.Tech</course>
+		<age>21</age>
+		<doj>2011-03-23</doj>
+	</student>
+        <student>
+		<name>Kumar</name>
+		<semester>Fall</semester>
+		<course>B.Tech</course>
+		<age>21</age>
+		<doj>2011-03-23</doj>
+	</student>
+</university>
