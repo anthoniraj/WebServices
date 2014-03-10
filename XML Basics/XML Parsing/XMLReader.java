@@ -13,7 +13,7 @@ public class XMLReader {
     public static void main(String a[]) {
         SAXParserFactory factory = SAXParserFactory.newInstance();
         try {
-            InputStream xmlInput = new FileInputStream("E:\\Workspace\\Java\\XM-Basics\\web\\Test.xml");
+            InputStream xmlInput = new FileInputStream("Test.xml");
             SAXParser sax = factory.newSAXParser();
             DefaultHandler handler = new DefaultHandler();
             sax.parse(xmlInput, handler);
